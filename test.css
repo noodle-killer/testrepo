@@ -1,0 +1,29 @@
+@charset utf-8;
+
+#p1 {
+    position: relative;
+    width: 10px;
+    height: 10px;
+}
+
+#p1:before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    display: block;
+    width: 10px;
+    height: 2px;
+    background: #888;
+}
+
+#p1:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    display: block;
+    width: 2px;
+    height: 10px;
+    background: #888;
+}
+
+
